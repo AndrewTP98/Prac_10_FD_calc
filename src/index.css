@@ -1,0 +1,13 @@
+.calculator{
+   width: 400px;
+   height: 350px;
+   margin: auto ;
+   border: 1px solid black;
+   border-radius: 2px; 
+}
+.calculator__screen{
+    width: 90%;
+    height: 18%;
+    border: 1px solid black;
+    margin: 15px auto;
+}

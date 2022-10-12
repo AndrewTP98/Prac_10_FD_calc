@@ -24,3 +24,4 @@ function calculate(){
     const res = eval(screen.innerHTML)
     screen.innerHTML = res;
 }
+module.exports = { pressBtn, calculate, clearScreen };

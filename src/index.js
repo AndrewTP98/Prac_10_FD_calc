@@ -19,7 +19,6 @@ function pressBtn(element){
     }
 }
 function calculate(){
-    console.log("calculate called")
     let screen = document.getElementById('sc-number')
     const res = eval(screen.innerHTML)
     screen.innerHTML = res;

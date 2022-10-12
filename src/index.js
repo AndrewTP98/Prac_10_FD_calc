@@ -4,7 +4,6 @@ function clearScreen(){
 }
 function pressBtn(element){
     let screen = document.getElementById('sc-number')
-    screen.innerHTML
     let btn = element.innerHTML;
     if(btn === '=')
     {
@@ -20,6 +19,7 @@ function pressBtn(element){
     }
 }
 function calculate(){
+    console.log("calculate called")
     let screen = document.getElementById('sc-number')
     const res = eval(screen.innerHTML)
     screen.innerHTML = res;

@@ -13,30 +13,30 @@
             <div class="calculator__screen-number" id="sc-number">0</div>
         </div>
         <div class="calculator__btns">
-            <div class="calculator__btn calculator__btn--clear" onclick="clearScreen()">C</div>
+            <div class="calculator__btn calculator__btn--clear" id="btn-clear" onclick="clearScreen()">C</div>
             <div class="calculator__row-btns">
-                <div class="calculator__btn" onclick="pressBtn(this)">7</div>
-                <div class="calculator__btn" onclick="pressBtn(this)">8</div>
-                <div class="calculator__btn" onclick="pressBtn(this)">9</div>
-                <div class="calculator__btn calculator__btn--operations" onclick="pressBtn(this)">/</div>
+                <div class="calculator__btn" id="btn-7" onclick="pressBtn(this)">7</div>
+                <div class="calculator__btn" id="btn-8" onclick="pressBtn(this)">8</div>
+                <div class="calculator__btn" id="btn-9" onclick="pressBtn(this)">9</div>
+                <div class="calculator__btn calculator__btn--operations" id="btn-divide" onclick="pressBtn(this)">/</div>
             </div>
             <div class="calculator__row-btns">
-                <div class="calculator__btn" onclick="pressBtn(this)">4</div>
-                <div class="calculator__btn" onclick="pressBtn(this)">5</div>
-                <div class="calculator__btn" onclick="pressBtn(this)">6</div>
-                <div class="calculator__btn calculator__btn--operations" onclick="pressBtn(this)">*</div>
+                <div class="calculator__btn" id="btn-4" onclick="pressBtn(this)">4</div>
+                <div class="calculator__btn" id="btn-5" onclick="pressBtn(this)">5</div>
+                <div class="calculator__btn" id="btn-6" onclick="pressBtn(this)">6</div>
+                <div class="calculator__btn calculator__btn--operations" id="btn-multiply" onclick="pressBtn(this)">*</div>
             </div>
             <div class="calculator__row-btns">
-                <div class="calculator__btn" onclick="pressBtn(this)">1</div>
-                <div class="calculator__btn" onclick="pressBtn(this)">2</div>
-                <div class="calculator__btn" onclick="pressBtn(this)">3</div>
-                <div class="calculator__btn calculator__btn--operations" onclick="pressBtn(this)">-</div>
+                <div class="calculator__btn" id="btn-1" onclick="pressBtn(this)">1</div>
+                <div class="calculator__btn" id="btn-2" onclick="pressBtn(this)">2</div>
+                <div class="calculator__btn" id="btn-3" onclick="pressBtn(this)">3</div>
+                <div class="calculator__btn calculator__btn--operations" id="btn-subtraction" onclick="pressBtn(this)">-</div>
             </div>
             <div class="calculator__row-btns">
-                <div class="calculator__btn" id="btn-7" onclick="pressBtn(this)">0</div>
+                <div class="calculator__btn" id="btn-0" onclick="pressBtn(this)">0</div>
                 <div class="calculator__btn">.</div>
-                <div class="calculator__btn calculator__btn--equal" onclick="pressBtn(this)">=</div>
-                <div class="calculator__btn calculator__btn--operations" onclick="pressBtn(this)">+</div>
+                <div class="calculator__btn calculator__btn--equal" id="btn-equal" onclick="pressBtn(this)">=</div>
+                <div class="calculator__btn calculator__btn--operations" id="btn-addition" onclick="pressBtn(this)">+</div>
             </div>
         </div>
         

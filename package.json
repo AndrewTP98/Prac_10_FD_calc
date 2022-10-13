@@ -1,0 +1,23 @@
+{
+  "name": "prac_10_fd_calc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-work:AndrewTP98/Prac_10_FD_calc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.1.2",
+    "jest-environment-jsdom": "^29.1.2"
+  },
+  "dependencies": {
+    "jsdom": "^20.0.1"
+  }
+}
